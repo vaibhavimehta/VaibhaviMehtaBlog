@@ -2,25 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vaibhavimehta.github.io/VaibhaviMehtaBlog/categories/</loc>
-    <lastmod>2022-03-08T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://vaibhavimehta.github.io/VaibhaviMehtaBlog/post/</loc>
-    <lastmod>2022-03-08T00:00:00+00:00</lastmod>
+    <loc>/tags/</loc>
   </url><url>
-    <loc>https://vaibhavimehta.github.io/VaibhaviMehtaBlog/tags/r/</loc>
-    <lastmod>2022-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vaibhavimehta.github.io/VaibhaviMehtaBlog/categories/r/</loc>
-    <lastmod>2022-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vaibhavimehta.github.io/VaibhaviMehtaBlog/tags/</loc>
-    <lastmod>2022-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vaibhavimehta.github.io/VaibhaviMehtaBlog/</loc>
-    <lastmod>2022-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://vaibhavimehta.github.io/VaibhaviMehtaBlog/post/2022-03-08-viz/</loc>
-    <lastmod>2022-03-08T00:00:00+00:00</lastmod>
+    <loc>/</loc>
   </url>
 </urlset>

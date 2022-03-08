@@ -1,10 +1,10 @@
 ---
-title: Viz
-author: Vaibhavi Mehta
+title: "Viz"
+author: "Vaibhavi Mehta"
 date: '2022-03-08'
 slug: []
-categories: [R]
-tags: [R]
+categories: R
+tags: R
 ---
 
 # Visualization 1
