@@ -1,10 +1,3 @@
----
-title: "Vaibhavi Mehta's Professional Portfolio"
-author: "Vaibhavi mehta"
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
----
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(collapse = TRUE)
 ```
@@ -13,7 +6,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 
 Box-plot showing the range of Final Exam scores of Statistics students
 
-```{r}
+```{r marks, fig.cap='Final Exam scores of Statistics students', tidy=FALSE}
 statscores = c(57, 66, 69, 71, 72, 73, 74, 77, 78, 78, 79, 79, 81, 81, 82, 83, 83, 88, 89, 94)
 m = median(statscores)
 boxplot(statscores, xlab = "Final Exam Scores", main = "Final Exam Scores of Statistics Students", horizontal = TRUE, col = "greenyellow")
