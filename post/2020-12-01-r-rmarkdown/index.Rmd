@@ -9,28 +9,26 @@ tags: ["R Markdown", "plot", "regression"]
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-# R Markdown
+# Visualization 1
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Box-plot showing the range of Final Exam scores of Statistics students
 
-You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-fit <- lm(dist ~ speed, data = cars)
-fit
+```{r}
+statscores = c(57, 66, 69, 71, 72, 73, 74, 77, 78, 78, 79, 79, 81, 81, 82, 83, 83, 88, 89, 94)
+m = median(statscores)
+boxplot(statscores, xlab = "Final Exam Scores", main = "Final Exam Scores of Statistics Students", horizontal = TRUE, col = "greenyellow")
+abline(v=m, col="blue")
 ```
 
-# Including Plots
+# Visualization 2
 
-You can also embed plots. See Figure \@ref(fig:pie) for example:
-
-```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
+```{r pie, fig.cap='Amount of time I spent on Social Media this week', tidy=FALSE}
 par(mar = c(0, 1, 0, 1))
 pie(
   c(280, 60, 20),
-  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
-  col = c('#0292D8', '#F7EA39', '#C4B632'),
-  init.angle = -50, border = NA
+  c('Linkedin', 'Instagram', 'Reddit'),
+  col = c('#0352D9', '#FF69B4', '#FF0021'),
+  init.angle = -50, border = 1
 )
 ```
+

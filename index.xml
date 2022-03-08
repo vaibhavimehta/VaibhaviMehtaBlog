@@ -6,5 +6,15 @@
     <description>Recent content on Vaibhavi Mehta&#39;s Professional Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://vaibhavimehta.github.io/VaibhaviMehtaBlog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vaibhavi Mehta&#39;s Professional Portfolio</title>
+      <link>https://vaibhavimehta.github.io/VaibhaviMehtaBlog/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vaibhavimehta.github.io/VaibhaviMehtaBlog/post/2020-12-01-r-rmarkdown/</guid>
+      <description>Visualization 1Box-plot showing the range of Final Exam scores of Statistics students
+statscores = c(57, 66, 69, 71, 72, 73, 74, 77, 78, 78, 79, 79, 81, 81, 82, 83, 83, 88, 89, 94)m = median(statscores)boxplot(statscores, xlab = &amp;quot;Final Exam Scores&amp;quot;, main = &amp;quot;Final Exam Scores of Statistics Students&amp;quot;, horizontal = TRUE, col = &amp;quot;greenyellow&amp;quot;)abline(v=m, col=&amp;quot;blue&amp;quot;)Visualization 2par(mar = c(0, 1, 0, 1))pie(c(280, 60, 20),c(&amp;#39;Linkedin&amp;#39;, &amp;#39;Instagram&amp;#39;, &amp;#39;Reddit&amp;#39;),col = c(&amp;#39;#0352D9&amp;#39;, &amp;#39;#FF69B4&amp;#39;, &amp;#39;#FF0021&amp;#39;),init.</description>
+    </item>
+    
   </channel>
 </rss>
